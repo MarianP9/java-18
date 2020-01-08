@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class Light {
 
     public static final int MAX = 100;
@@ -23,8 +25,7 @@ public class Light {
         if (brightness + step <= MAX) {
             brightness += step;
             System.out.println("Brightness is " + brightness);
-        }
-        else
+        } else
             System.out.println("Can't increase brightness anymore");
     }
 
@@ -32,8 +33,7 @@ public class Light {
         if (brightness - step >= MIN) {
             brightness -= step;
             System.out.println("Brightness is " + brightness);
-        }
-        else
+        } else
             System.out.println("Can't dim brightness anymore. The light is off.");
     }
 
