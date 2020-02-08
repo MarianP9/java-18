@@ -1,6 +1,6 @@
 package week_5_oop_ii;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         //Phone phone = new Samsung(); // shouldn't compile
         Phone phone = new SamsungGalaxyS6("black", "aluminum", 989529206081393L);

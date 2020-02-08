@@ -1,6 +1,6 @@
 package week_5_oop_ii;
 
-public interface Phone {
+interface Phone {
     void addContact(int id, String phoneNumber, String firstName, String lastName);
 
     void listContacts();

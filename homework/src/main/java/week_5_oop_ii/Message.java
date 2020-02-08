@@ -1,19 +1,19 @@
 package week_5_oop_ii;
 
-public class Message {
+class Message {
     private String recipientNumber;
     private String message;
 
-    public Message(String recipientNumber, String message) {
+    Message(String recipientNumber, String message) {
         this.recipientNumber = recipientNumber;
         this.message = message;
     }
 
-    public String getRecipientNumber() {
+    String getRecipientNumber() {
         return recipientNumber;
     }
 
-    public String getMessage() {
+    String getMessage() {
         return message;
     }
 
