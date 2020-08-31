@@ -1,2 +1,2 @@
 # java-18
-java projects
+Materials for Java Course
